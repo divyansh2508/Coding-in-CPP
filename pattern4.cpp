@@ -8,12 +8,12 @@
 using namespace std;
 int main()
 {
-    int n;  //This variable is declared to take the input for the size of inverted half pyramid
-    cout<<"How many rows you want to enter for the  Half Pyramid after 180 deg rotation?\nAns: ";
+    int n;  //This variable is declared to take the input for the size of half pyramid after 180 deg rotation
+    cout<<"How many rows you want to enter for the Half Pyramid after 180 deg rotation?\nAns: ";
     cin>>n;
     for(int i=1;i<=n;i++)   //This loop is used to change the line i.e., shifting to next row
     {
-        for(int j=1;j<=n;j++)   //This loop is used to print the "*" on the particular line
+        for(int j=1;j<=n;j++)   //This loop is used to print the "*" and " " according to the if-else statement.
         {
             if(j<=n-i)
             {
