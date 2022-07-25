@@ -25,5 +25,5 @@ int main()
     cout<<"Enter any Decimal Number: ";
     cin>>n;
     int ans=dec_to_oct(n);
-    cout<<"The Binary form of the entered number is: "<<ans<<endl;
+    cout<<"The Octal form of the entered number is: "<<ans<<endl;
 }
