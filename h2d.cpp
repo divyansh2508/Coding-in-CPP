@@ -24,7 +24,7 @@ int hextodec(string n)
 int main()
 {
     string n;
-    cout<<"Enter any Hexadecimal Number: ";  //binary numbers are like 453, 40, 1 etc.
+    cout<<"Enter any Hexadecimal Number: ";  //hexadecimal numbers are like 1CF, ABC, 123 etc.
     cin>>n;
     int ans=hextodec(n);
     cout<<"The Decimal form of the entered number is: "<<ans<<endl;
